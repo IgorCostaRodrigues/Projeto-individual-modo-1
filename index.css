@@ -1,0 +1,75 @@
+
+/* Index.css */
+
+body{   /* Coloquei cores, troquei as fontes e tirei meu nome os nomes do canto da tela */
+
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ }
+
+ ul { /* Minha barra de navegação*/
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px; ;
+ }
+ 
+ a { /* Cor da minha barra de navegação e tirei o traço dela*/
+    color: white;
+    text-decoration:none
+   }
+   
+/* Coloquei hover na minha barra de naveção,git e linkedin  ="a"href" */
+ a:hover{ color: rgb(75, 128, 197);
+ }
+ 
+ header img { /*A forma que encontrei para colocar a foto do tamanho que eu gostaria, com bordas*/
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 5px solid rgb(75, 128, 197)
+    }
+ 
+ .center{ /*Coloquei minha foto no centro*/
+   text-align: center;
+       }
+ 
+ h1{ /*Mudei a cor do meu nome*/
+    color: rgb(75, 128, 197);
+   }
+ 
+ footer img{ /*Achei o tamanho adequado para as fotos do github e linkedin*/
+ 
+    width: 35px;
+    height: 35px;
+ 
+            }
+ 
+ footer { /*Coloquei a foto do github e linkedin no centro*/
+ 
+    display:flex;
+    justify-content: center;
+ }
+
+ footer a { /*Coloquei uma pequena margem entre as fotos*/
+ 
+    margin: 20px;
+ 
+ }
+ 
+ footer p { /*Coloquei uma pequena margem na legenda entre as fotos*/
+ 
+    margin-top: 2px;
+    text-align: center;
+ }
+ 
+ .conteiner {/*Fiz uma class com todo body dentro de uma div e afastei ele dos cantos*/
+    padding: 0px 50px;
+ }
+
+

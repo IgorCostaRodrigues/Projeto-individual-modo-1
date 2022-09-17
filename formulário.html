@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html pt-br="en">
+  <head>  <!--Mega tag-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="./formularios.css" />
+  </head>
+  <body>
+ <div class="conteiner"   
+      <nav>  <!--Barra de navegação-->
+        <ul>
+            <li>
+               <a href="index.html">Sobre mim</a> 
+            </li>
+            <li>
+               <a href="Projetos.html">Projetos</a> 
+            </li>
+            <li>
+               <a href="formulário.html">Contatos</a> 
+            </li>
+         </ul>
+    </nav> 
+     <header>
+       <div class="center"> <!--Minha foto em baixo da barra de navegação-->
+         <img src="./imag/Igor.jpg"></img>
+       </div>
+        <h1>Formulário para Contato</h1> <br>
+    </header>
+   <main> <!--Formulário site com as informações https://formsubmit.co/-->
+       <form
+       action="https://formsubmit.co/igorcrodrigues94@gmail.com"
+       method="POST"
+       class="form"
+      >
+      <label for="name">Nome</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message" required></textarea>
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="http://127.0.0.1:5500/Antigo/obrigado.html"
+      />
+      <button type="submit">Enviar</button>
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+    </main>
+   </div>  
+ </body>
+</html>

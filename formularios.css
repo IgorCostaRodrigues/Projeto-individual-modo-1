@@ -1,0 +1,126 @@
+
+/*formularios.css*/
+
+body{  /* Coloquei cores, troquei as fontes e tirei meu nome os nomes do canto da tela */
+  color:white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.center{ /*Coloquei minha foto no centro*/
+  text-align: center;
+}
+
+.conteiner {  /*Fiz uma class com todo body dentro de uma div e afastei ele dos cantos*/
+  padding: 0px 50px;
+}
+ul { /* Minha barra de navegação*/
+  display:flex;
+  justify-content:space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px; 
+}
+
+img { /*A forma que encontrei para colocar a foto do tamanho que eu gostaria, com bordas*/
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(75, 128, 197);}
+
+  a { /* Cor da minha barra de navegação e tirei o traço dela*/
+    color: white;
+    text-decoration: none;
+  }
+
+   a:hover{ color: rgb(75, 128, 197);
+   }
+
+main { /*Base do formulario*/
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+
+}
+
+h1{ /*letra formulario grande*/
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.form { /*Formulário no centro*/
+  width: 100%;
+  max-width: 32rem;
+  font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label { /*Nomes*/
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+/*Quando for selecionado/ margens, bordas e quando deixar selecionado*/
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+/*Açoes ao passar o mouse*/
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #09d;
+  box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+.form button { /*Enviar*/
+  display: block;
+  padding: 1rem;
+  background: #0072c4;
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: #09d;
+}
+
+
+     
+
+    
